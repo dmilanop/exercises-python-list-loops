@@ -7,11 +7,3 @@ incoming_ajax_data = [
 ]
 
 #Your code go here:
-def data_transformer(data):
-	# valor = f'{data["name"]} {data["last_name"]}'
-
-	return f'{data["name"]} {data["last_name"]}'
-
-new_list = list(map(data_transformer, incoming_ajax_data))
-
-print(new_list)
