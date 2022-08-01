@@ -12,10 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def undone_tasks(undone):
-	return undone["done"] == True 
-
-resulting_tasks_done = list(filter(undone_tasks, tasks))
-
-print(resulting_tasks_done)
 
