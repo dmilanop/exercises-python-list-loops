@@ -3,8 +3,5 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 counts = {}
 #your code go here:
 
-
-counts[par]
-
 print(counts)
 
