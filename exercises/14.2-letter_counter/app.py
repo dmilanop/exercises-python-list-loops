@@ -2,9 +2,11 @@ par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget bib
 
 counts = {}
 #your code go here:
-
-
-counts[par]
+for letra in par.lower().replace(" ",""):
+    if letra in counts:
+        counts[letra] = counts[letra]+1
+    else:
+        counts[letra] = 1
 
 print(counts)
 
